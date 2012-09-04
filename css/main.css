@@ -1,0 +1,341 @@
+BODY {
+  background: #FFF1D0;
+  min-width: 1080px;
+}
+
+.png {
+  behavior: url("js/iepngfix.htc")
+}
+
+.clear {
+  clear: both;
+}
+
+A:hover {
+  text-decoration: underline;
+}
+
+
+
+
+#wrapper {
+  margin: 50px;
+  border: 2px solid #D9CDB1;
+  border-radius: 5px;
+  padding: 0 20px 0 20px;
+  background: white;
+}
+#header {
+  height: 160px;
+  overflow: hidden;
+}
+#header .header-right {
+  float: right;
+  width: 442px; 
+  height: 160px;
+  padding-top: 19px;
+}
+#header .header-left {
+  float: left;
+  width: 270px; 
+  height: 160px;
+}
+#header .header-center {
+  margin-left: 270px;
+}
+#header .header-center .header_phone {
+  height: 24px;
+  padding:  2px 0 0 43px;
+  margin-top: 35px;
+  font: 22px/18px verdana;
+  color: #05080D;
+  background: url(../images/ico_phone_head.jpg) no-repeat 5px 0;
+}
+#header .header-center .header_phone SPAN {
+  display: inline-block;
+  margin-right: 14px;
+  font: 16px/16px verdana;
+  color: #585858;
+}
+
+
+
+
+#content_block {
+  padding-bottom: 65px;
+  overflow: hidden;
+}
+#content_block .content_left {
+  float: left;
+  width: 250px;
+}
+#content_block .content_left .poisk_block {
+  margin-top: 2px;
+  overflow: hidden;
+}
+#content_block .content_left .poisk_block .poisk {
+  float: left;
+  width: 179px;
+  height: 21px;
+  border: 9px solid #E2E2E2;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  padding-left: 12px;
+  background: url(../images/bg_poisk.png) no-repeat 0 0 #E2E2E2;
+  font: 12px/12px verdana;
+  color: #8E8E8E;
+  outline:none;
+}
+#content_block .content_left .poisk_block .poisk_sub {
+  float: left;
+  width: 50px;
+  height: 39px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  padding-left: 10px;
+  background: url(../images/bg_poisk_sub.png) no-repeat center center #E2E2E2;
+  cursor: pointer;
+}
+#content_block .content_left .logo_bot {
+  height: 23px;
+}
+#content_block .content_left .left_menu {
+  width: 210px;
+  padding: 21px 20px 6px 20px;
+  border-radius: 4px;
+  background: #F57921 ;
+}
+#content_block .content_left .left_menu .left_menu_head {
+  padding-left: 17px;
+  margin-bottom: 16px;
+  font: 16px/16px verdana;
+  color: white;
+}
+#content_block .content_left .left_menu UL {
+  overflow: hidden;
+}
+#content_block .content_left .left_menu UL LI {
+  background: url(../images/bg_li-left_menu.jpg) repeat-x left bottom;
+  font: 12px/26px verdana;
+  color: white;
+}
+#content_block .content_left .left_menu UL .act {
+  background: url(../images/bg_ssilka-act_left-menu.png) no-repeat 7px 12px;
+  font: bold 12px/26px verdana;
+  color: #FFFFCC;
+}
+#content_block .content_left .left_menu UL LI A {
+  display: block;
+  padding-left: 20px;
+  background: url(../images/bg_ssilka_left-menu.png) no-repeat 8px 10px;
+  font: 12px/26px verdana;
+  color: white;
+}
+#content_block .content_left .left_menu UL .act A {
+  font: bold 12px/26px verdana;
+  color: #FFFFCC;
+  background: none;
+}
+#content_block .content_left .left_menu .internal1 {
+  padding-left: 24px;
+}
+#content_block .content_left .left_menu .internal1 LI {
+  background: none;
+}
+#content_block .content_left .left_menu .internal2 {
+  padding-left: 34px;
+}
+#content_block .content_left .left_menu .internal2 LI {
+  background: none;
+  padding-left: 0;
+}
+#content_block .content_left .left_menu .internal2 .bold A {
+  font: bold 12px/26px verdana;
+  color: #FFFFCC;
+}
+#content_block .content_left .left_menu .internal2 LI A {
+  background: none;
+  padding-left: 0;
+  color: #FFFFCC;
+}
+
+
+
+
+#content_block .content_right {
+  margin-left: 270px;
+}
+#content_block .content_right .top_menu {
+  margin-bottom: 23px;
+}
+#content_block .content_right .top_menu UL {
+  width: 100%;
+  border-radius: 3px;
+  background: url(../images/bg_item_topmenu.jpg) repeat-x 0 0;
+  overflow: hidden;
+}
+#content_block .content_right .top_menu LI {
+  float: left;
+  border-left: 1px solid #F57147;
+  border-right: 1px solid #DA3B1F;
+  background: url(../images/bg_item_topmenu.jpg) repeat-x 0 0;
+}
+#content_block .content_right .top_menu .act {
+  border: none;
+  background: url(../images/bg_item-act_topmenu.jpg) repeat-x 0 0;
+}
+#content_block .content_right .top_menu .last {
+  border-right: none;
+  height: 38px; 
+}
+#content_block .content_right .top_menu LI A {
+  display: block;
+  padding: 0 24px 0 24px;
+  font: 12px/40px verdana;
+  color: white;
+}
+#content_block .content_right .top_menu .act A{
+  font: 12px/40px verdana;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+#content_block .content_right .right_cont{
+  height: 400px;
+}
+#content_block .content_right .right_cont .category_item {
+  float: left;
+  width: 350px;
+  height: 168px;
+  border: 1px solid #DAC89F;
+  margin: 0 27px 20px 0;
+  border-radius: 5px;
+}
+#content_block .content_right .right_cont .last {
+  margin-right: 0;
+}
+#content_block .content_right .right_cont .category_item .category_item_head {
+  width: 339px;
+  height: 30px;
+  padding-left: 11px;
+  border-radius: 5px 5px 0 0;
+  background: url(../images/bg_category_item_head.jpg) repeat-x 0 0;
+  font: bold 14px/30px verdana;
+  color: #2A2727;
+}
+#content_block .content_right .right_cont .category_item .category_item_left {
+  float: left;
+  width: 120px;
+  height: 138px;
+  margin: 0 15px 0 10px;
+  overflow: hidden;
+}
+#content_block .content_right .right_cont .category_item .category_item_left IMG {
+  float: left;
+  border: 1px solid #A59478;
+  margin: 15px 0 10px 0;
+}
+#content_block .content_right .right_cont .category_item .category_item_left SPAN {
+  font: 11px/11px verdana;
+  color: #CBBA91;
+}
+#content_block .content_right .right_cont .category_item .category_item_right {
+  height: 126px;
+  padding: 12px 1px 0 0;
+  margin-left: 146px;
+  position: relative;
+}
+#content_block .content_right .right_cont .category_item .category_item_right .category_item_text {
+  font: 12px/15px verdana;
+  color: #585858;
+}
+#content_block .content_right .right_cont .category_item .category_item_right A {
+  display: inline-block;
+  padding-right: 22px;
+  background: url(../images/category_item_ssilka.png  ) no-repeat right top;
+  font: 11px/12px verdana;
+  color: #F76904;
+  text-decoration: underline;
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+}
+#content_block .content_right .right_cont .category_item .category_item_right A:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+#footer {
+  height: 55px;
+  border-top: 2px solid #F07F1C;
+  padding: 18px 0 0 7px;
+  overflow: hidden;
+}
+#footer .foot_right {
+  width:300px;
+  float: right;
+}
+#footer .foot_right IMG {
+  float: right;
+}
+#footer .foot_left {
+  float: left;
+  width: 263px;
+}
+#footer .foot_left SPAN{
+  display: block;
+  margin-bottom: 12px;
+  font: 12px/12px verdana;
+  color: #585858;
+}
+#footer .foot_center SPAN{
+  display: block;
+  margin: 0 0 12px 0;
+  font: 12px/12px verdana;
+  color: #585858;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
