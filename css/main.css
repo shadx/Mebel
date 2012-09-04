@@ -203,7 +203,7 @@ A:hover {
 
 
 #content_block .content_right .right_cont{
-  height: 400px;
+  overflow: hidden;
 }
 #content_block .content_right .right_cont .category_item {
   float: left;
@@ -289,34 +289,7 @@ A:hover {
 
 /* inner_pages - end */
 
-/* inner_2 */
 
-#content_block .content_right .inner_cont .inner_head {
-  margin: 10px;
-	font: bold 14px/18px verdana;
-	color: #2A2727;
-}
-#content_block .content_right .inner_cont .inner_text {
-	font: 12px verdana;
-	color: #585858;
-	margin: 0 0 0 10px;
-}
-
-#content_block .content_right .inner_cont .goods_list {
-  width: 220px;
-	background: silver;
-	text-align: center;
-}
-#content_block .content_right .inner_cont .goods_list A {
-  
-}
-#content_block .content_right .inner_cont .goods_list IMG {
-  border: solid 1px #D6C4A7;
-}
-#content_block .content_right .inner_cont .goods_list {
-  
-}
-/* inner_2 */
 
 #footer {
   height: 55px;
@@ -353,24 +326,69 @@ A:hover {
 
 /* inner1*/
 
+.inner_cont {
+  
+}
+.inner_cont .inner_cont_head {
+  font: bold 14px verdana;
+  color: #2A2727;
+  margin: 17px 0 23px 11px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.inner_cont .inner_cont_item {
+  overflow: hidden;
+  border-bottom: 1px solid #E8DBBC;
+  margin: 0 11px 0 11px;
+  position: relative;
+}
+.inner_cont .last {
+  border-bottom: none;
+}
+.inner_cont .inner_cont_item .inner_item_left {
+  float: left;
+  width: 120px;
+  height: 132px;
+  margin: 0 15px 0 10px;
+  overflow: hidden;
+}
+.inner_cont .inner_cont_item .inner_item_left IMG {
+  float: left;
+  border: 1px solid #A59478;
+  margin: 20px 0 5px 0;
+}
+.inner_cont .inner_cont_item .inner_item_left SPAN {
+  font: 11px/11px verdana;
+  color: #CBBA91;
+}
+.inner_cont .inner_cont_item .inner_item_right {
+  height: 110px;
+  padding: 19px 1px 0 0;
+  margin-left: 146px;
+  position: relative;
+}
+.inner_cont .inner_cont_item .inner_item_right .right_head {
+  margin-bottom: 11px;
+  font: bold 14px/14px verdana;
+  color: #2A2727;
+}
+.inner_cont .inner_cont_item .inner_item_right .inner_item_text {
+  font: 12px/15px verdana;
+  color: #585858;
+}
+.inner_cont .inner_cont_item .inner_item_right A {
+  display: inline-block;
+  padding-right: 22px;
+  background: url(../images/category_item_ssilka.png  ) no-repeat right top;
+  font: 11px/12px verdana;
+  color: #F76904;
+  text-decoration: underline;
+  position: absolute;
+  left: 0;
+  bottom: 7px;
+}
+.inner_cont .inner_cont_item .inner_item_right A:hover {
+  text-decoration: none;
+}
 
 
 
