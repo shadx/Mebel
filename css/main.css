@@ -304,18 +304,37 @@ A:hover {
 }
 
 #content_block .content_right .inner_cont .goods_list {
-  width: 220px;
+  width: 200px;
+	float: left;
 	background: silver;
 	text-align: center;
+	font: 11px verdana;
+	color: #585858;
+	padding: 10px;
+	margin: 10px 20px 10px 30px;
 }
 #content_block .content_right .inner_cont .goods_list A {
-  
+  font: 13px/30px verdana;
+	color: #585858;
+	text-decoration: underline;
+}
+#content_block .content_right .inner_cont .goods_list A:hover {
+	text-decoration: none;
 }
 #content_block .content_right .inner_cont .goods_list IMG {
   border: solid 1px #D6C4A7;
+	margin: 0 0 10px 0;
 }
-#content_block .content_right .inner_cont .goods_list {
-  
+#content_block .content_right .inner_cont .goods_list .button {
+  display: block;
+	font: 18px  verdana;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	width: 150px;
+	padding: 4px;
+	margin: 0 auto;
+	background: url(../images/button.jpg) repeat-x 0 0;
 }
 /* inner_2 */
 
