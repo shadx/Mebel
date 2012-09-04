@@ -23,7 +23,7 @@ A:hover {
   border: 2px solid #D9CDB1;
   border-radius: 5px;
   padding: 0 20px 0 20px;
-  background: white;
+  background: url(../images/bg_wrapper.png) repeat-x 0 0 white;
 }
 #header {
   height: 160px;
@@ -70,26 +70,25 @@ A:hover {
   width: 250px;
 }
 #content_block .content_left .poisk_block {
-  margin-top: 2px;
   overflow: hidden;
 }
 #content_block .content_left .poisk_block .poisk {
   float: left;
   width: 179px;
   height: 21px;
-  border: 9px solid #E2E2E2;
+  border: 10px solid #E2E2E2;
   border-right: none;
   border-radius: 4px 0 0 4px;
   padding-left: 12px;
   background: url(../images/bg_poisk.png) no-repeat 0 0 #E2E2E2;
   font: 12px/12px verdana;
   color: #8E8E8E;
-  outline:none;
+  outline: none;
 }
 #content_block .content_left .poisk_block .poisk_sub {
   float: left;
-  width: 50px;
-  height: 39px;
+  width: 49px;
+  height: 41px;
   border: none;
   border-radius: 0 4px 4px 0;
   padding-left: 10px;
@@ -301,6 +300,10 @@ A:hover {
   color: #585858;
 }
 
+/* index*/
+
+
+/* inner1*/
 
 
 
@@ -323,18 +326,7 @@ A:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* inner1*/
 
 
 
