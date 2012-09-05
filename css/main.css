@@ -1,7 +1,6 @@
 BODY {
   background: #FFF1D0;
   min-width: 1080px;
-  padding-bottom: 43px;
   background: url(../images/fon.jpg) no-repeat 0 0 white;
 }
 
@@ -36,6 +35,11 @@ A:hover {
   position: absolute;
   top: 0;
   left: 39px;
+}
+#wrapper .logo A {
+  display: block;
+  width: 301px; 
+  height: 212px;
 }
 #header {
   height: 160px;
@@ -93,7 +97,7 @@ A:hover {
   border-radius: 4px 0 0 4px;
   padding-left: 12px;
   background: url(../images/bg_poisk.png) no-repeat 0 0 #E2E2E2;
-  font: 12px/12px verdana;
+  font: 12px/21px verdana;
   color: #8E8E8E;
   outline: none;
 }
@@ -149,7 +153,11 @@ A:hover {
   background: none;
 }
 #content_block .content_left .left_menu .internal1 {
+  background: url(../images/bg_ssilka_left-menu.png) no-repeat 33px 10px;
   padding-left: 24px;
+}
+#content_block .content_left .left_menu .internal1 .act {
+  background: url(../images/bg_ssilka-act_left-menu.png) no-repeat 7px 12px;
 }
 #content_block .content_left .left_menu .internal1 LI {
   background: none;
@@ -161,15 +169,15 @@ A:hover {
   background: none;
   padding-left: 0;
 }
+#content_block .content_left .left_menu .internal2 LI A {
+  background: none;
+  padding-left: 0;
+}
 #content_block .content_left .left_menu .internal2 .bold A {
   font: bold 12px/26px verdana;
   color: #FFFFCC;
 }
-#content_block .content_left .left_menu .internal2 LI A {
-  background: none;
-  padding-left: 0;
-  color: #FFFFCC;
-}
+
 
 
 
@@ -390,7 +398,7 @@ A:hover {
   background: url(../images/inner_2_navi_link.png) no-repeat 0 0;
 }
 /* inner_2 */
->>>>>>> origin/Eldar
+
 
 #footer {
   height: 55px;
@@ -428,14 +436,17 @@ A:hover {
 /* inner1*/
 
 .inner_cont {
-  
 }
 .inner_cont .inner_cont_head {
   font: bold 14px verdana;
   color: #2A2727;
   margin: 17px 0 23px 11px;
 }
-
+.inner_cont .inner_cont_head_text {
+  font: 12px verdana;
+  color: #585858;
+  margin: -13px 0 0 12px;
+}
 .inner_cont .inner_cont_item {
   overflow: hidden;
   border-bottom: 1px solid #E8DBBC;
@@ -592,18 +603,6 @@ A:hover {
 .inner_cont .recommend .recommend_item IMG {
   margin: 41px 0 0 47px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
