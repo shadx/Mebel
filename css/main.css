@@ -378,7 +378,7 @@ A:hover {
 .inner_cont .inner_cont_item .inner_item_right A {
   display: inline-block;
   padding-right: 22px;
-  background: url(../images/category_item_ssilka.png  ) no-repeat right top;
+  background: url(../images/category_item_ssilka.png) no-repeat right top;
   font: 11px/12px verdana;
   color: #F76904;
   text-decoration: underline;
@@ -393,6 +393,120 @@ A:hover {
 
 
 /* inner1*/
+
+
+/* inner3*/
+
+.inner_cont .inner_slider {
+  margin: 0 0 27px 12px;
+  overflow: hidden;
+}
+.inner_cont .inner_slider .big_foto {
+  float: left;
+  margin-right: 10px;
+  border: 1px solid #D6C4A7;
+}
+.inner_cont .inner_slider .small_foto {
+  display: block;
+  margin-bottom: 10px;
+  border: 1px solid #D6C4A7;
+}
+.inner_cont .features {
+  margin: 0 0 23px 12px;
+  font: 12px verdana;
+  color: #585858;
+}
+.inner_cont .features .features_item {
+  margin-bottom: 8px;
+}
+.inner_cont .features .LAST {
+  margin-bottom: 0;
+}
+.inner_cont .features SPAN {
+  margin-right: 6px;
+  font: bold 12px verdana;
+  color: #585858;
+}
+.inner_cont .features A {
+  color: #585858;
+  text-decoration: underline;
+}
+.inner_cont .features A:hover {
+  text-decoration: none;
+}
+.inner_cont .cena_tovara {
+  width: 158px;
+  height: 35px;
+  margin-left: 12px;
+  border-radius: 4px;
+  background: url(../images/bg_cena.jpg) repeat-x 0 0;
+  font: 18px/35px verdana;
+  color: white;
+  text-align: center;
+}
+.inner_cont .recommend {
+  margin: 27px 0 54px 12px;
+  overflow: hidden;
+}
+.inner_cont .recommend .recommend_head {
+  margin-bottom: 22px;
+  font: bold 14px verdana;
+  color: #2A2727;
+}
+.inner_cont .recommend .recommend_item {
+  float: left;
+  width: 174px;
+  height: 196px;
+  margin-right: 32px;
+  border: 1px solid #D7C6AA;
+  position: relative;
+}
+.inner_cont .recommend .last {
+  margin-right: 0;
+}
+.inner_cont .recommend .recommend_item .model {
+  display: block;
+  text-decoration: underline;
+  font: bold 13px verdana;
+  color: #585858;
+  position: absolute;
+  top: 10px;
+  left: 53px;
+}
+.inner_cont .recommend .recommend_item .cena {
+  width: 158px;
+  height: 35px; 
+  border-radius: 4px;
+  background: url(../images/bg_cena.jpg) repeat-x 0 0;
+  font: 18px/35px verdana;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 154px;
+  left: 8px;
+}
+.inner_cont .recommend .recommend_item A {
+  display: block;
+}
+.inner_cont .recommend .recommend_item IMG {
+  margin: 41px 0 0 47px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* inner3*/
 
 
 
