@@ -1,6 +1,8 @@
 BODY {
   background: #FFF1D0;
   min-width: 1080px;
+  padding-bottom: 43px;
+  background: url(../images/fon.jpg) no-repeat 0 0 white;
 }
 
 .png {
@@ -24,6 +26,16 @@ A:hover {
   border-radius: 5px;
   padding: 0 20px 0 20px;
   background: url(../images/bg_wrapper.png) repeat-x 0 0 white;
+  position: relative:
+}
+#wrapper .logo {
+  float: left;
+  width: 301px; 
+  height: 212px;
+  background: url(../images/logo2.png) no-repeat 0 0;
+  position: absolute;
+  top: 0;
+  left: 39px;
 }
 #header {
   height: 160px;
@@ -97,6 +109,7 @@ A:hover {
 }
 #content_block .content_left .logo_bot {
   height: 23px;
+  background: url(../images/logo-bot.jpg) no-repeat 0 0;
 }
 #content_block .content_left .left_menu {
   width: 210px;
