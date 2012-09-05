@@ -300,30 +300,36 @@ A:hover {
 #content_block .content_right .inner_cont .inner_text {
 	font: 12px verdana;
 	color: #585858;
-	margin: 0 0 0 10px;
+	margin: 0 10px 0 10px;
 }
 
 #content_block .content_right .inner_cont .goods_list {
   width: 200px;
 	float: left;
-	background: silver;
 	text-align: center;
 	font: 11px verdana;
 	color: #585858;
 	padding: 10px;
-	margin: 10px 20px 10px 30px;
+	margin: 10px 20px 10px 35px;
+	overflow: hidden;
 }
 #content_block .content_right .inner_cont .goods_list A {
-  font: 13px/30px verdana;
+  font:bold 13px/30px verdana;
 	color: #585858;
 	text-decoration: underline;
 }
 #content_block .content_right .inner_cont .goods_list A:hover {
 	text-decoration: none;
 }
-#content_block .content_right .inner_cont .goods_list IMG {
+#content_block .content_right .inner_cont .goods_list .goods_list_img {
   border: solid 1px #D6C4A7;
-	margin: 0 0 10px 0;
+	width: 166px;
+	height: 111px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#content_block .content_right .inner_cont .goods_list IMG {
+	
 }
 #content_block .content_right .inner_cont .goods_list .button {
   display: block;
@@ -335,6 +341,40 @@ A:hover {
 	padding: 4px;
 	margin: 0 auto;
 	background: url(../images/button.jpg) repeat-x 0 0;
+}
+
+#content_block .content_right .inner_cont .inner_cont_navi {
+	overflow: hidden;
+	width: 650px;
+	margin: 0 auto;
+}
+#content_block .content_right .inner_cont .inner_cont_navi A {
+  display: block;
+	float: left;
+	text-align: center;
+	font: 13px/18px verdana;
+	color: #585858;
+	margin: 10px;
+	width: 22px;
+	height: 22px;
+	text-decoration: underline;
+}
+#content_block .content_right .inner_cont .inner_cont_navi A:hover {
+	text-decoration: none;
+}
+#content_block .content_right .inner_cont .inner_cont_navi .first {
+  padding: 0 0 0 15px;
+  background: url(../images/inner_2_arrow_left.png) no-repeat 0 50%;
+}
+#content_block .content_right .inner_cont .inner_cont_navi .last {
+  padding: 0 40px 0 0;
+  background: url(../images/inner_2_arrow_right.png) no-repeat 100% 50%;
+}
+#content_block .content_right .inner_cont .inner_cont_navi .act {
+  color: #fff;
+	width: 22px;
+	height: 22px;
+  background: url(../images/inner_2_navi_link.png) no-repeat 0 0;
 }
 /* inner_2 */
 
