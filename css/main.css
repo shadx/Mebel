@@ -1,7 +1,8 @@
 BODY {
   background: #FFF1D0;
-  min-width: 1080px;
+  min-width: 1000px;
   background: url(../images/fon.jpg) no-repeat 0 0 white;
+  margin: 50px 36px;
 }
 
 .png {
@@ -20,7 +21,6 @@ A:hover {
 
 
 #wrapper {
-  margin: 50px;
   border: 2px solid #D9CDB1;
   border-radius: 5px;
   padding: 0 20px 0 20px;
@@ -94,7 +94,7 @@ A:hover {
   height: 21px;
   border: 10px solid #E2E2E2;
   border-right: none;
-  border-radius: 4px 0 0 4px;
+  border-radius: 5px 0 0 5px;
   padding-left: 12px;
   background: url(../images/bg_poisk.png) no-repeat 0 0 #E2E2E2;
   font: 12px/21px verdana;
@@ -106,7 +106,7 @@ A:hover {
   width: 49px;
   height: 41px;
   border: none;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 5px 5px 0;
   padding-left: 10px;
   background: url(../images/bg_poisk_sub.png) no-repeat center center #E2E2E2;
   cursor: pointer;
@@ -118,7 +118,7 @@ A:hover {
 #content_block .content_left .left_menu {
   width: 210px;
   padding: 21px 20px 6px 20px;
-  border-radius: 4px;
+  border-radius: 6px;
   background: #F57921 ;
 }
 #content_block .content_left .left_menu .left_menu_head {
@@ -134,6 +134,7 @@ A:hover {
   background: url(../images/bg_li-left_menu.jpg) repeat-x left bottom;
   font: 12px/26px verdana;
   color: white;
+  overflow: hidden;
 }
 #content_block .content_left .left_menu UL .act {
   background: url(../images/bg_ssilka-act_left-menu.png) no-repeat 7px 12px;
@@ -148,9 +149,12 @@ A:hover {
   color: white;
 }
 #content_block .content_left .left_menu UL .act A {
-  font: bold 12px/26px verdana;
+  font: 12px/26px verdana;
   color: #FFFFCC;
   background: none;
+}
+#content_block .content_left .left_menu UL .act > A {
+  font-weight: bold;
 }
 #content_block .content_left .left_menu .internal1 {
   background: url(../images/bg_ssilka_left-menu.png) no-repeat 33px 10px;
@@ -190,7 +194,7 @@ A:hover {
 }
 #content_block .content_right .top_menu UL {
   width: 100%;
-  border-radius: 3px;
+  border-radius: 6px;
   background: url(../images/bg_item_topmenu.jpg) repeat-x 0 0;
   overflow: hidden;
 }
@@ -213,6 +217,7 @@ A:hover {
   padding: 0 24px 0 24px;
   font: 12px/40px verdana;
   color: white;
+  text-transform: uppercase;
 }
 #content_block .content_right .top_menu .act A{
   font: 12px/40px verdana;
@@ -243,8 +248,12 @@ A:hover {
   padding-left: 11px;
   border-radius: 5px 5px 0 0;
   background: url(../images/bg_category_item_head.jpg) repeat-x 0 0;
+  border-bottom: solid 1px #D8C69D;
   font: bold 14px/30px verdana;
   color: #2A2727;
+}
+#content_block .content_right .right_cont .category_item .rasprodaj {
+  color: #D63F24;
 }
 #content_block .content_right .right_cont .category_item .category_item_left {
   float: left;
@@ -264,7 +273,7 @@ A:hover {
 }
 #content_block .content_right .right_cont .category_item .category_item_right {
   height: 126px;
-  padding: 12px 1px 0 0;
+  padding: 12px 5px 0 0;
   margin-left: 146px;
   position: relative;
 }
@@ -295,24 +304,29 @@ A:hover {
 }
 #content_block .content_right .inner_cont .breadcrumbs {
   height: 30px;
+  padding-left: 6px;
 	border-bottom: solid 1px #D8C69D;
   background: url(../images/inner_2_head_bg.jpg) repeat-x 0 0;
-	font: 11px/30px verdana;
+	border-radius: 6px 6px 0 0;
+  font: 11px/30px verdana;
 	color: #585858;
 }
 #content_block .content_right .inner_cont .breadcrumbs A {
   color: #F57921;
 	text-decoration: underline;
 	padding: 0 10px 0 5px;
-	margin: 0 0 0 5px;
-	background: url(../images/inner_2_head_link.png) no-repeat 100% 60%;
+	margin: 0 0 0 2px;
+	background: url(../images/inner_2_head_link.png) no-repeat 100% 5px;
+}
+#content_block .content_right .inner_cont .breadcrumbs SPAN {
+  padding-left: 7px;
+}
+#content_block .content_right .inner_cont .breadcrumbs A:hover {
+  text-decoration: none;
 }
 
 /* inner_pages - end */
 
-
-<<<<<<< HEAD
-=======
 #content_block .content_right .inner_cont .inner_head {
   margin: 10px;
 	font: bold 14px/18px verdana;
@@ -324,6 +338,9 @@ A:hover {
 	margin: 0 10px 0 10px;
 }
 
+#content_block .content_right .inner_cont .goods_block {
+  overflow: hidden;
+}
 #content_block .content_right .inner_cont .goods_list {
   width: 200px;
 	float: left;
@@ -368,14 +385,15 @@ A:hover {
 	overflow: hidden;
 	width: 650px;
 	margin: 0 auto;
+  padding-bottom: 20px;
 }
 #content_block .content_right .inner_cont .inner_cont_navi A {
   display: block;
 	float: left;
 	text-align: center;
-	font: 13px/18px verdana;
+	font: 13px/22px verdana;
 	color: #585858;
-	margin: 10px;
+	margin: 10px 5px;
 	width: 22px;
 	height: 22px;
 	text-decoration: underline;
@@ -384,18 +402,20 @@ A:hover {
 	text-decoration: none;
 }
 #content_block .content_right .inner_cont .inner_cont_navi .first {
+  margin-right: 19px;
   padding: 0 0 0 15px;
-  background: url(../images/inner_2_arrow_left.png) no-repeat 0 50%;
+  background: url(../images/inner_2_arrow_left.png) no-repeat 0 9px;
 }
 #content_block .content_right .inner_cont .inner_cont_navi .last {
   padding: 0 40px 0 0;
-  background: url(../images/inner_2_arrow_right.png) no-repeat 100% 50%;
+  background: url(../images/inner_2_arrow_right.png) no-repeat 100% 9px;
 }
 #content_block .content_right .inner_cont .inner_cont_navi .act {
   color: #fff;
 	width: 22px;
 	height: 22px;
   background: url(../images/inner_2_navi_link.png) no-repeat 0 0;
+  text-decoration: none;
 }
 /* inner_2 */
 
@@ -423,6 +443,9 @@ A:hover {
   font: 12px/12px verdana;
   color: #585858;
 }
+#footer .foot_left SPAN A {
+  color: #585858;
+}
 #footer .foot_center SPAN{
   display: block;
   margin: 0 0 12px 0;
@@ -440,12 +463,12 @@ A:hover {
 .inner_cont .inner_cont_head {
   font: bold 14px verdana;
   color: #2A2727;
-  margin: 17px 0 23px 11px;
+  margin: 17px 0 10px 11px;
 }
 .inner_cont .inner_cont_head_text {
   font: 12px verdana;
   color: #585858;
-  margin: -13px 0 0 12px;
+  margin: 13px 0 0 12px;
 }
 .inner_cont .inner_cont_item {
   overflow: hidden;
@@ -460,7 +483,7 @@ A:hover {
   float: left;
   width: 120px;
   height: 132px;
-  margin: 0 15px 0 10px;
+  margin: 0 15px 0 0px;
   overflow: hidden;
 }
 .inner_cont .inner_cont_item .inner_item_left IMG {
@@ -547,6 +570,7 @@ A:hover {
   text-decoration: none;
 }
 .inner_cont .cena_tovara {
+  display: block;
   width: 158px;
   height: 35px;
   margin-left: 12px;
@@ -555,6 +579,9 @@ A:hover {
   font: 18px/35px verdana;
   color: white;
   text-align: center;
+}
+.inner_cont .cena_tovara:hover {
+  text-decoration: none;
 }
 .inner_cont .recommend {
   margin: 27px 0 54px 12px;
@@ -586,6 +613,7 @@ A:hover {
   left: 53px;
 }
 .inner_cont .recommend .recommend_item .cena {
+  display: block;
   width: 158px;
   height: 35px; 
   border-radius: 4px;
@@ -596,6 +624,9 @@ A:hover {
   position: absolute;
   top: 154px;
   left: 8px;
+}
+.inner_cont .recommend .recommend_item .cena:hover {
+  text-decoration: none;
 }
 .inner_cont .recommend .recommend_item A {
   display: block;
